@@ -210,8 +210,6 @@ class BrandController extends Controller
             return response()->json([
                 'msg'=>"Data Successfully Inserted"
             ]);
-
         }
-
     }
 }

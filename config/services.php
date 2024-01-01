@@ -31,4 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'google' => [
+        'client_id' => '612072667410-ls6rp7o5l0u46nftormh6rku9p7sarep.apps.googleusercontent.com',
+        'client_secret' => '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',
+        'redirect' => 'http://127.0.0.1:8000/apigooglestore',
+    ],
+
 ];

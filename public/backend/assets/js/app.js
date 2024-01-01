@@ -69,7 +69,7 @@ $(function() {
 	})
 
 
-   // sidebar colors 
+   // sidebar colors
 
 
 
@@ -97,11 +97,11 @@ $(function() {
     function theme4() {
       $('html').attr('class', 'color-sidebar sidebarcolor4');
     }
-	
+
 	function theme5() {
       $('html').attr('class', 'color-sidebar sidebarcolor5');
     }
-	
+
 	function theme6() {
       $('html').attr('class', 'color-sidebar sidebarcolor6');
     }

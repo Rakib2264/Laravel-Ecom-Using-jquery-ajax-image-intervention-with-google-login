@@ -137,7 +137,6 @@ jQuery(document).ready(function () {
     });
     jQuery(document).on("click",".cat_update",function(){
         var id = jQuery(this).val();
-
         var name = jQuery(".cat_name").val();
         var des = jQuery(".des").val();
         var status = jQuery(".cat_status").val();
@@ -168,7 +167,6 @@ jQuery(document).ready(function () {
             contentType:false,
             processData:false,
             success:function(res){
-
                 if(res.status == "failed"){
                     $(".spn_name").html(res.errors.name)
                     $(".spn_cat").html(res.errors.cat_id)
@@ -177,9 +175,7 @@ jQuery(document).ready(function () {
                 }else{
                     alert(res.msg)
                 }
-
             }
         })
-
     })
 });
